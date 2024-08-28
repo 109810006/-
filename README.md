@@ -4,8 +4,8 @@
 #### 前處理
 建立要給模型訓練的yaml檔，提供資料集中test以及train的檔案路徑、所欲匡列的類別數量以及名稱。
 ```yaml
-train: C:\Users\User\Desktop\深度學習及常用工具演算法介紹\dataset\dataset\train
-val: C:\Users\User\Desktop\深度學習及常用工具演算法介紹\dataset\dataset\test
+train: dataset\train 
+val: dataset\test
 nc: 3  # 類別數量
 names: ['Initial', 'Middle', 'Harvest']
 ```
