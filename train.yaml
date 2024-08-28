@@ -1,0 +1,5 @@
+train: C:\Users\User\Desktop\深度學習及常用工具演算法介紹\dataset\dataset\train
+val: C:\Users\User\Desktop\深度學習及常用工具演算法介紹\dataset\dataset\test
+nc: 3  # 類別數量
+names: ['Initial', 'Middle', 'Harvest']
+
