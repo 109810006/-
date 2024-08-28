@@ -23,7 +23,7 @@ if __name__ == '__main__':
 亦會產生混淆矩陣來評估模型對於各類別的辨識能力，如下圖:
 ![image](https://github.com/user-attachments/assets/e23873e7-ff26-452c-b53f-de15e00c4e28)
 #### 實際預測
-先將最佳的訓練權重檔案(best.pt)載入YOLO內，再將要預測的番茄圖片輸入至模型內即可得出類別預測的結果匡列。範例 :
+先將最佳的訓練權重檔案(best.pt)載入YOLO內，再使用test_tomato.py將要預測的番茄圖片輸入至模型內即可得出類別預測的結果匡列。範例 :
 丟入一張具有initial、middle以及harvest類別的番茄照片:
 
 ![image](https://github.com/user-attachments/assets/67ac3857-fa66-4ed9-a0f8-a140e2b4b46c)
