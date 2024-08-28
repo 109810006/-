@@ -25,8 +25,12 @@ if __name__ == '__main__':
 #### 實際預測
 先將最佳的訓練權重檔案(best.pt)載入YOLO內，再將要預測的番茄圖片輸入至模型內即可得出類別預測的結果匡列。範例 :
 丟入一張具有initial、middle以及harvest類別的番茄照片:
-![image](https://github.com/user-attachments/assets/3ebcfd3e-8a7a-4e61-8cb5-202cea96b205)
+
+![image](https://github.com/user-attachments/assets/67ac3857-fa66-4ed9-a0f8-a140e2b4b46c)
+
+
 經過預測後之番茄結果:
+
 ![image](https://github.com/user-attachments/assets/dea919cd-86e7-40ac-a20a-f0a926dcfbb2)
 
 
